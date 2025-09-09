@@ -1,4 +1,4 @@
-function M = IntegratorUniform(A,M0,T,h)
+function M = CoordinateAdaptive(A,M0,T,h)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% input: 
 %  A: Atlas
@@ -93,5 +93,6 @@ if chart_index == 5 || chart_index == 6
 v = [vect(2);vect(3)];
 end
 end 
+
 
 
